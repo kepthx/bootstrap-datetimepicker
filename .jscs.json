@@ -23,7 +23,7 @@
     "requireParenthesesAroundIIFE": true,
     "requireSpacesInConditionalExpression": true,
     "requireSpacesInAnonymousFunctionExpression": {
-        "beforeOpeningRoundBrace": false,
+        "beforeOpeningRoundBrace": true,
         "beforeOpeningCurlyBrace": true
     },
     "requireSpacesInNamedFunctionExpression": {
