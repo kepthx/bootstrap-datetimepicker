@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     uglify: {
       target: {
         files: {
-          'build/js/bootstrap-datetimepicker.min.js': 'src/js/bootstrap-datetimepicker.js'
+          'dist/js/bootstrap-datetimepicker.min.js': 'src/js/bootstrap-datetimepicker.js'
         }
       },
       options: {
@@ -85,7 +85,7 @@ module.exports = function(grunt) {
           sourcemap: 'none'
         },
         files: {
-          './build/css/bootstrap-datetimepicker.css': './src/sass/bootstrap-datetimepicker-build.scss'
+          './dist/css/bootstrap-datetimepicker.css': './src/sass/bootstrap-datetimepicker-build.scss'
         }
       },
       dist: {
@@ -94,7 +94,7 @@ module.exports = function(grunt) {
           sourcemap: 'none'
         },
         files: {
-          './build/css/bootstrap-datetimepicker.min.css': './src/sass/bootstrap-datetimepicker-build.scss'
+          './dist/css/bootstrap-datetimepicker.min.css': './src/sass/bootstrap-datetimepicker-build.scss'
         }
       }
     },
@@ -119,7 +119,7 @@ module.exports = function(grunt) {
           host: 'http://127.0.0.1:8099',
           styles: [
             'node_modules/bootstrap/dist/css/bootstrap.min.css',
-            'build/css/bootstrap-datetimepicker.min.css'
+            'dist/css/bootstrap-datetimepicker.min.css'
           ],
           vendor: [
             'node_modules/jquery/dist/jquery.min.js',
